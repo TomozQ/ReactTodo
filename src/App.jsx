@@ -10,13 +10,28 @@ export const App = () => {
       </div>
       <div>
         <p>未完了のTODO</p>
-        <button>完了</button>
-        <button>削除</button>
         <ul>
-          <li>aaaaaa</li>
+          <div>
+            <li>aaaaaa</li>
+            <button>完了</button>
+            <button>削除</button>
+          </div>
+          <div>
+            <li>bbbbbb</li>
+            <button>完了</button>
+            <button>削除</button>
+          </div>
         </ul>
       </div>
-      <div></div>
+      <div>
+        <p>完了したTODO</p>
+        <ul>
+          <div>
+            <li>uuuuuu</li>
+            <button>戻す</button>
+          </div>
+        </ul>
+      </div>
     </>
   );
 };
