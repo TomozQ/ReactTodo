@@ -6,8 +6,16 @@ export const App = () => {
     <>
       <div>
         <input placeholder="TODOを入力" />
+        <button>追加</button>
       </div>
-      <div></div>
+      <div>
+        <p>未完了のTODO</p>
+        <button>完了</button>
+        <button>削除</button>
+        <ul>
+          <li>aaaaaa</li>
+        </ul>
+      </div>
       <div></div>
     </>
   );
